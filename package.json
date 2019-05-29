@@ -22,18 +22,14 @@
   "homepage": "https://github.com/phumoonlight/trinity-next#readme",
   "dependencies": {
     "next": "^8.1.0",
-    "next-eslint": "0.0.4",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
   },
   "devDependencies": {
     "eslint": "^5.16.0",
     "eslint-config-airbnb": "^17.1.0",
-    "eslint-config-xo": "^0.26.0",
+    "eslint-plugin-import": "^2.17.3",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
     "eslint-plugin-react": "^7.13.0"
-  },
-  "eslintConfig": {
-    "extends": "xo"
   }
 }
-
