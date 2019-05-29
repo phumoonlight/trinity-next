@@ -1,8 +1,7 @@
-import Express from 'express';
-import Mongoose from 'mongoose';
-import BodyParser from 'body-parser';
-import cors from 'cors';
-
+const Express = require('express');
+const Mongoose = require('mongoose');
+const BodyParser = require('body-parser');
+const cors = require('cors');
 
 const app = Express();
 
