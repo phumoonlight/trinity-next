@@ -1,11 +1,15 @@
-import React from 'react'
+/* eslint-disable react/prefer-stateless-function */
+import React, { Component } from 'react'
 
-const clickme = (e) => {
-  console.log(e.target)
-};
-
-function Com() {
-  return <button type="button" onClick={clickme}>Com</button>
+class Com extends Component {
+  render() {
+    return (
+      <div>
+        com
+      </div>
+    )
+  }
 }
+
 
 export default Com
