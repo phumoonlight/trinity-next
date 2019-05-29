@@ -1,10 +1,17 @@
-import React from 'react';
+import React from 'react'
+import Com from '../components/Com'
 
+const c = () => {
+  console.log('click');
+};
 
-const index = () => (
-  <div>
-    <h1>Hi</h1>
-  </div>
-);
+function Home() {
+  return (
+    <div onClick={c}>
+      <Com />
+      Welcome to Next.js!
+    </div>
+  );
+}
 
-export default index;
+export default Home;
